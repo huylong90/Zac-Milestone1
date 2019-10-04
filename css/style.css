@@ -1,0 +1,224 @@
+:root {
+    --main-color:#62B8E3;
+    --secondary-color:#ffa459 ;
+}
+
+header{
+    background-color:#ffa459 ;
+    height: 11%;
+    width:100%; 
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-right: 12%;
+    margin-bottom: .5em;
+    
+}
+
+.main-nav li a 
+{
+    text-decoration: none;
+    color:var(--secondary-color);
+    
+}
+
+.brand-logo
+{
+    margin-right: 1.4em;
+    display: inline-block;
+}
+.brand-logo img 
+{
+    height: 32px;
+    width: 32px;
+}
+
+.brand 
+{
+    padding: 10px; 
+    margin-left: 1.8em; 
+}
+
+.brand-title {
+    font-size: 2em; 
+    color: var(--main-color);
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.nav-item
+{
+    border: 2px solid var(--main-color); 
+    border-radius: 5px; 
+    background: white;
+    padding: .5em; 
+    font-family: 'Roboto',sans-serif; 
+    display: inline-block;
+    margin-right: 1em;
+    color: var(--secondary-color);
+}
+
+body
+{
+     background:#1da6c2;
+    font-family: "Arial","Helvetica",sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.row
+{
+    width: 95%;
+    margin: 0;
+}
+
+.hero
+{
+    position:absolute;
+    margin-bottom: 100px;
+    width: 75%;
+}
+
+h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 550px;
+    margin-bottom: auto;
+}
+
+h2
+{
+     color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+  
+    margin-left: 500px; 
+}
+p
+{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 570px;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 850px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: #ffa459;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+
+
+.login-page{
+    width:  360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7,40,195,0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Times", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family:"Times", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button: hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+}
+footer
+{
+  background-color:#ffa459 ;
+    height: 9%;
+    width:100%; 
+    position: absolute;
+    bottom: 0;
+}
